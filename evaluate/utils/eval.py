@@ -11,11 +11,11 @@ from scipy.optimize import linear_sum_assignment
 
 from utils.helper import clean_answer, answer_match, scanrefer_get_unique_multiple_lookup
 
-default_instance_attr_file = "annotation/scannet_mask3d_val_attributes.pt"
+default_instance_attr_file = "/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet_mask3d_val_attributes.pt"
 
 def calc_scanrefer_score(preds, config=None):
     instance_attribute_file = config.seg_val_attr_file if config is not None else default_instance_attr_file
-    scannet_attribute_file = "annotation/scannet_val_attributes.pt"
+    scannet_attribute_file = "/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet_val_attributes.pt"
 
     instance_attrs = torch.load(instance_attribute_file, map_location='cpu')
     scannet_attrs = torch.load(scannet_attribute_file, map_location='cpu')
@@ -91,7 +91,7 @@ def calc_scanrefer_score(preds, config=None):
 def calc_referit3d_score(preds, eval_name, config=None):
     acc, easy_acc, hard_acc, view_dep_acc, view_indep_acc = 0, 0, 0, 0, 0
     easy_num, hard_num, dep_num, indep_num = 0, 0, 0, 0
-    scannet_attribute_file = "annotation/scannet_val_attributes.pt"
+    scannet_attribute_file = "/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet_val_attributes.pt"
     scannet_attrs = torch.load(scannet_attribute_file, map_location='cpu')
     
     id_format = "<OBJ\\d{3}>"
@@ -141,7 +141,7 @@ def calc_referit3d_score(preds, eval_name, config=None):
 
 def calc_multi3dref_score(preds, config=None):
     instance_attribute_file = config.seg_val_attr_file if config is not None else default_instance_attr_file
-    scannet_attribute_file = "annotation/scannet_val_attributes.pt"
+    scannet_attribute_file = "/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet_val_attributes.pt"
 
     instance_attrs = torch.load(instance_attribute_file, map_location='cpu')
     scannet_attrs = torch.load(scannet_attribute_file, map_location='cpu')
@@ -226,15 +226,15 @@ def calc_multi3dref_score(preds, config=None):
         val_scores[f"[multi3dref] {k} F1@0.50"] = np.mean(iou_50_f1_scores[k])
     return val_scores
 
-
+'''
 def calc_scan2cap_score(preds, tokenizer, scorers, config=None):
     instance_attribute_file = config.seg_val_attr_file if config is not None else default_instance_attr_file
-    scannet_attribute_file = "annotation/scannet_val_attributes.pt"
+    scannet_attribute_file = "/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet_val_attributes.pt"
 
     instance_attrs = torch.load(instance_attribute_file, map_location='cpu')
     scannet_attrs = torch.load(scannet_attribute_file, map_location='cpu')
 
-    gt_dict = json.load(open('annotation/scan2cap_val_corpus.json'))
+    gt_dict = json.load(open('/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scan2cap_val_corpus.json'))
     tmp_preds_iou25 = {}
     tmp_preds_iou50 = {}
     tmp_targets = {}
@@ -284,8 +284,147 @@ def calc_scan2cap_score(preds, tokenizer, scorers, config=None):
         else:
             val_scores[f"[scan2cap] {method}@0.50"] = score
     return val_scores
+'''
+
+import os
+import json
+import torch
+from collections import OrderedDict # Use OrderedDict if the tokenizer preserves order, or ensure keys are sorted
+
+# --- Placeholder for required functions (MUST BE DEFINED ELSEWHERE IN YOUR CODE) ---
+# def construct_bbox_corners(center, size): ... 
+# def box3d_iou(box1_corners, box2_corners): ...
+# default_instance_attr_file = "path/to/default_attributes.pt"
+# ---------------------------------------------------------------------------------
+
+def save_individual_scores_to_file(filepath, individual_scores_dict):
+    """Writes the detailed individual scores for each QID and metric to a text file."""
+    
+    with open(filepath, 'w') as f:
+        f.write("Scan2Cap Individual Scores Log\n")
+        f.write("--------------------------------------------------\n\n")
+        
+        # Determine all unique QIDs across all metrics (The keys of any score dictionary)
+        # Assuming all score dictionaries have the same set of keys/QIDs
+        if not individual_scores_dict:
+            f.write("No scores generated.\n")
+            return
+
+        first_metric = next(iter(individual_scores_dict))
+        qids = sorted(individual_scores_dict[first_metric].keys())
+        metric_names = sorted(individual_scores_dict.keys())
+
+        # Write Header
+        header = f"{'QID':<30}" + "".join([f"{m:<15}" for m in metric_names]) + "\n"
+        f.write(header)
+        f.write("-" * (30 + 15 * len(metric_names)) + "\n")
+        
+        # Write scores row by row
+        for qid in qids:
+            line = f"{qid:<30}"
+            for metric in metric_names:
+                score = individual_scores_dict[metric].get(qid, 'N/A')
+                line += f"{score:15.6f}" if isinstance(score, (int, float)) else f"{score:<15}"
+            f.write(line + "\n")
+            
+    print(f"Individual Scan2Cap scores saved to: {filepath}")
 
 
+@torch.no_grad()
+def calc_scan2cap_score(preds, tokenizer, scorers, config=None):
+    instance_attribute_file = config.seg_val_attr_file if config is not None else default_instance_attr_file
+    scannet_attribute_file = "/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet_val_attributes.pt"
+
+    instance_attrs = torch.load(instance_attribute_file, map_location='cpu')
+    scannet_attrs = torch.load(scannet_attribute_file, map_location='cpu')
+
+    gt_dict = json.load(open('/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scan2cap_val_corpus.json'))
+    tmp_preds_iou25 = OrderedDict() # Use OrderedDict to preserve key order
+    tmp_preds_iou50 = OrderedDict()
+    tmp_targets = OrderedDict()
+    
+    for pred in preds:
+        scene_id = pred['scene_id']
+        pred_id = pred['pred_id']
+        gt_id = pred['gt_id']
+        # ... (rest of bounding box and IOU calculation logic) ...
+        pred_locs = instance_attrs[scene_id]['locs'][pred_id].tolist()
+        gt_locs = scannet_attrs[scene_id]['locs'][gt_id].tolist()
+        pred_corners = construct_bbox_corners(pred_locs[:3], pred_locs[3:])
+        gt_corners = construct_bbox_corners(gt_locs[:3], gt_locs[3:])
+        iou = box3d_iou(pred_corners, gt_corners)
+        
+        key = f"{scene_id}|{gt_id}" # This is the QID
+
+        if iou >= 0.25:
+            tmp_preds_iou25[key] = [{'caption': f"sos {pred['pred']} eos".replace('\n', ' ')}]
+        else:
+            tmp_preds_iou25[key] = [{'caption': f"sos eos"}]
+        if iou >= 0.5:
+            tmp_preds_iou50[key] = [{'caption': f"sos {pred['pred']} eos".replace('\n', ' ')}]
+        else:
+            tmp_preds_iou50[key] = [{'caption': f"sos eos"}]
+        tmp_targets[key] = [{'caption': caption} for caption in gt_dict[key]]
+    
+    missing_keys = gt_dict.keys() - tmp_targets.keys()
+
+    for missing_key in missing_keys:
+        tmp_preds_iou25[missing_key] = [{'caption': "sos eos"}]
+        tmp_preds_iou50[missing_key] = [{'caption': "sos eos"}]
+        tmp_targets[missing_key] = [{'caption': caption} for caption in gt_dict[missing_key]]
+    
+    # Get the ordered keys before tokenization, as the scoring library expects an order
+    ordered_keys = list(tmp_targets.keys()) 
+    
+    tmp_preds_iou25 = tokenizer.tokenize(tmp_preds_iou25)
+    tmp_preds_iou50 = tokenizer.tokenize(tmp_preds_iou50)
+    tmp_targets = tokenizer.tokenize(tmp_targets)
+
+    val_scores = {}
+    all_individual_scores = {} # Dictionary to store QID -> score mapping
+
+    # --- SCORING @ IOU 0.25 ---
+    for scorer, method in scorers:
+        # score: aggregated score | scores: list of individual scores
+        agg_score, scores_list = scorer.compute_score(tmp_targets, tmp_preds_iou25) 
+        
+        # Ensure 'method' is iterable for zip (e.g., in case of CIDEr, BLEU is a list)
+        methods = method if type(method) == list else [method]
+        scores_lists = scores_list if type(scores_list[0]) == list else [scores_list]
+        
+        for m, sc, scs in zip(methods, agg_score if type(agg_score) == list else [agg_score], scores_lists):
+            val_scores[f"[scan2cap] {m}@0.25"] = sc
+            
+            # Map individual scores to their QIDs
+            metric_key = f"{m}@0.25"
+            all_individual_scores[metric_key] = {
+                key: score_val for key, score_val in zip(ordered_keys, scs)
+            }
+
+    # --- SCORING @ IOU 0.50 ---
+    for scorer, method in scorers:
+        agg_score, scores_list = scorer.compute_score(tmp_targets, tmp_preds_iou50) 
+        
+        methods = method if type(method) == list else [method]
+        scores_lists = scores_list if type(scores_list[0]) == list else [scores_list]
+
+        for m, sc, scs in zip(methods, agg_score if type(agg_score) == list else [agg_score], scores_lists):
+            val_scores[f"[scan2cap] {m}@0.50"] = sc
+            
+            # Map individual scores to their QIDs
+            metric_key = f"{m}@0.50"
+            all_individual_scores[metric_key] = {
+                key: score_val for key, score_val in zip(ordered_keys, scs)
+            }
+    
+    # --- OUTPUT TO FILE ---
+    # Define the output file path
+    output_filepath = "eval_outputs/scan2cap_individual_scores_GPT4Scene.txt"
+    save_individual_scores_to_file(output_filepath, all_individual_scores)
+
+    return val_scores
+
+'''
 def calc_scanqa_score(preds, tokenizer, scorers, config=None):
     val_scores = {}
     tmp_preds = {}
@@ -322,8 +461,96 @@ def calc_scanqa_score(preds, tokenizer, scorers, config=None):
         else:
             val_scores[f"[scanqa] {method}"] = score
     return val_scores
+'''
 
 
+import matplotlib.pyplot as plt
+import os
+
+def calc_scanqa_score(preds, tokenizer, scorers, config=None):
+    val_scores = {}
+    tmp_preds = {}
+    tmp_targets = {}
+    acc, refined_acc = 0, 0
+    em1_scores = []
+    em1_refined_scores = []
+
+    print("Total samples:", len(preds))
+    wrong_indices_em1 = []
+    wrong_indices_em1_refined = []
+
+    for i, output in enumerate(preds):
+        item_id = f"{output['scene_id']}_{output['gt_id']}_{output['qid']}_{i}"
+        pred = output["pred"]
+        if len(pred) > 1 and pred[-1] == '.':
+            pred = pred[:-1]
+        if len(pred) > 1:
+            pred = pred[0].lower() + pred[1:]
+        pred = clean_answer(pred)
+
+        ref_captions = [clean_answer(caption) for caption in output['ref_captions']]
+        tmp_acc, tmp_refined_acc = answer_match(pred, ref_captions)
+        if tmp_acc == 0:
+            wrong_indices_em1.append(i)
+        if tmp_refined_acc == 0:
+            wrong_indices_em1_refined.append(i)
+
+        acc += tmp_acc
+        refined_acc += tmp_refined_acc
+        em1_scores.append(tmp_acc)
+        em1_refined_scores.append(tmp_refined_acc)
+
+        tmp_preds[item_id] = [{'caption': pred}]
+        tmp_targets[item_id] = [{'caption': caption.replace("\n", " ").strip()} for caption in output['ref_captions']]
+
+    tmp_preds = tokenizer.tokenize(tmp_preds)
+    tmp_targets = tokenizer.tokenize(tmp_targets)
+
+    acc /= len(preds)
+    refined_acc /= len(preds)
+    val_scores["[scanqa] EM1"] = acc
+    val_scores["[scanqa] EM1_refined"] = refined_acc
+
+    for scorer, method in scorers:
+        score, scores = scorer.compute_score(tmp_targets, tmp_preds)
+        if isinstance(method, list):
+            for sc, scs, m in zip(score, scores, method):
+                val_scores[f"[scanqa] {m}"] = sc
+        else:
+            val_scores[f"[scanqa] {method}"] = score
+
+    os.makedirs("scanqa_viz_3", exist_ok=True)
+
+    def plot_scores(scores, label, filename, color):
+        plt.style.use('ggplot')
+        fig, ax = plt.subplots(figsize=(20, 6))
+        indices = list(range(len(scores)))
+        ax.bar(indices, scores, color=color)
+        ax.set_xlabel('Question Index', fontsize=12)
+        ax.set_ylabel('Correctness (Binary)', fontsize=12)
+        ax.set_title(f'{label} Scores per Question', fontsize=14)
+        ax.set_yticks([0, 1])
+        plt.tight_layout()
+        path = f"scanqa_viz_3/{filename}"
+        plt.savefig(path)
+        plt.close()
+        print(f"{label} chart saved to {path}")
+
+    plot_scores(em1_scores, "EM1", "em1_bar_chart_cluster.png", "skyblue")
+    plot_scores(em1_refined_scores, "EM1_refined", "em1_refined_bar_chart_cluster.png", "salmon")
+    with open("scanqa_viz_3/wrong_indices_em1.txt", "w") as f:
+        for idx in wrong_indices_em1:
+            f.write(f"{idx}\n")
+        print("Wrong EM1 indices saved to scanqa_viz_3/wrong_indices_em1.txt")
+
+    with open("scanqa_viz_3/wrong_indices_em1_refined.txt", "w") as f:
+        for idx in wrong_indices_em1_refined:
+            f.write(f"{idx}\n")
+        print("Wrong EM1_refined indices saved to scanqa_viz_3/wrong_indices_em1_refined.txt")
+
+    return val_scores
+
+'''
 def calc_sqa3d_score(preds, tokenizer, scorers, config=None):
     val_scores = {}
     tmp_preds = {}
@@ -373,6 +600,111 @@ def calc_sqa3d_score(preds, tokenizer, scorers, config=None):
         else:
             val_scores[f"[sqa3d] {method}"] = score
     return val_scores
+'''
+import os
+import matplotlib.pyplot as plt
+
+def calc_sqa3d_score(preds, tokenizer, scorers, config=None):
+    val_scores = {}
+    tmp_preds = {}
+    tmp_targets = {}
+    metrics = {
+        'type0_count': 1e-10, 'type1_count': 1e-10, 'type2_count': 1e-10,
+        'type3_count': 1e-10, 'type4_count': 1e-10, 'type5_count': 1e-10,
+    }
+    em_overall = 0
+    em_refined_overall = 0
+    em_type = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+    em_refined_type = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+
+    em1_scores = []
+    em1_refined_scores = []
+    wrong_indices_em1 = []
+    wrong_indices_em1_refined = []
+
+    print("Total samples:", len(preds))
+    for i, output in enumerate(preds):
+        item_id = f"{output['scene_id']}_{output['gt_id']}_{output['qid']}_{i}"
+        pred = output["pred"]
+        if len(pred) > 1:
+            if pred[-1] == '.':
+                pred = pred[:-1]
+            pred = pred[0].lower() + pred[1:]
+        pred = clean_answer(pred)
+        ref_captions = [clean_answer(caption) for caption in output['ref_captions']]
+        em_flag, em_refined_flag = answer_match(pred, ref_captions)
+
+        if em_flag == 0:
+            wrong_indices_em1.append(i)
+        if em_refined_flag == 0:
+            wrong_indices_em1_refined.append(i)
+
+        em1_scores.append(em_flag)
+        em1_refined_scores.append(em_refined_flag)
+
+        em_overall += em_flag
+        em_refined_overall += em_refined_flag
+        sqa_type = int(output['type_info'])
+        em_type[sqa_type] += em_flag
+        em_refined_type[sqa_type] += em_refined_flag
+        metrics[f'type{sqa_type}_count'] += 1
+
+        tmp_preds[item_id] = [{'caption': pred}]
+        ref_captions = [p.replace("\n", " ").strip() for p in ref_captions]
+        tmp_targets[item_id] = [{'caption': caption} for caption in ref_captions]
+
+    tmp_preds = tokenizer.tokenize(tmp_preds)
+    tmp_targets = tokenizer.tokenize(tmp_targets)
+
+    em_overall /= len(preds)
+    em_refined_overall /= len(preds)
+    val_scores["[sqa3d] EM1"] = em_overall
+    val_scores["[sqa3d] EM1_refined"] = em_refined_overall
+
+    for key in em_type.keys():
+        val_scores[f'[sqa3d] EM_type{key}'] = em_type[key] / metrics[f'type{key}_count']
+        val_scores[f'[sqa3d] EM_refined_type{key}'] = em_refined_type[key] / metrics[f'type{key}_count']
+
+    for scorer, method in scorers:
+        score, scores = scorer.compute_score(tmp_targets, tmp_preds)
+        if isinstance(method, list):
+            for sc, scs, m in zip(score, scores, method):
+                val_scores[f"[sqa3d] {m}"] = sc
+        else:
+            val_scores[f"[sqa3d] {method}"] = score
+
+    os.makedirs("sqa3d_viz_3", exist_ok=True)
+
+    def plot_scores(scores, label, filename, color):
+        plt.style.use('ggplot')
+        fig, ax = plt.subplots(figsize=(20, 6))
+        indices = list(range(len(scores)))
+        ax.bar(indices, scores, color=color)
+        ax.set_xlabel('Question Index', fontsize=12)
+        ax.set_ylabel('Correctness (Binary)', fontsize=12)
+        ax.set_title(f'{label} Scores per Question', fontsize=14)
+        ax.set_yticks([0, 1])
+        plt.tight_layout()
+        path = f"sqa3d_viz_3/{filename}"
+        plt.savefig(path)
+        plt.close()
+        print(f"{label} chart saved to {path}")
+
+    plot_scores(em1_scores, "EM1", "em1_bar_chart_cluster.png", "skyblue")
+    plot_scores(em1_refined_scores, "EM1_refined", "em1_refined_bar_chart_cluster.png", "salmon")
+
+    with open("sqa3d_viz_3/wrong_indices_em1.txt", "w") as f:
+        for idx in wrong_indices_em1:
+            f.write(f"{idx}\n")
+        print("Wrong EM1 indices saved to sqa3d_viz_3/wrong_indices_em1.txt")
+
+    with open("sqa3d_viz_3/wrong_indices_em1_refined.txt", "w") as f:
+        for idx in wrong_indices_em1_refined:
+            f.write(f"{idx}\n")
+        print("Wrong EM1_refined indices saved to sqa3d_viz_3/wrong_indices_em1_refined.txt")
+
+    return val_scores
+
 
 
 def extract_locs(loc_str):

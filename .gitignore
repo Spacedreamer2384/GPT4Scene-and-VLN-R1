@@ -179,5 +179,11 @@ cython_debug/
 /data/
 /tokenizers/
 /ckpts
-
+/eval_outputs
+/position_ids
+/src
+/src_qwen3
+/src_qwen3vl
+/tokenizers
+/outputs
 /.vscode/

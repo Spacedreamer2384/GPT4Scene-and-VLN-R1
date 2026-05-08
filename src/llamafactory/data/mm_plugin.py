@@ -568,9 +568,11 @@ class Qwen2vlPlugin(BasePlugin):
         image_processor: "BaseImageProcessor" = getattr(processor, "image_processor")
         merge_length: int = getattr(image_processor, "merge_size") ** 2
         mm_inputs = self._get_mm_inputs(images, videos, processor)
+        # print("processor: ", processor)
+        # print("mminputs: ", mm_inputs)
         image_grid_thw = mm_inputs.get("image_grid_thw", [])
         video_grid_thw = mm_inputs.get("video_grid_thw", [])
-
+        print("image_grid_thw: ", mm_inputs.get("image_grid_thw", []))
         num_image_tokens, num_video_tokens = 0, 0
         messages = deepcopy(messages)
         for message in messages:

@@ -213,7 +213,7 @@ def preprocess_packed_supervised_dataset(
 
 def print_supervised_dataset_example(example: Dict[str, List[int]], tokenizer: "PreTrainedTokenizer") -> None:
     valid_labels = list(filter(lambda x: x != IGNORE_INDEX, example["labels"]))
-    print("input_ids:\n{}".format(example["input_ids"]))
-    print("inputs:\n{}".format(tokenizer.decode(example["input_ids"], skip_special_tokens=False)))
-    print("label_ids:\n{}".format(example["labels"]))
-    print(f"labels:\n{tokenizer.decode(valid_labels, skip_special_tokens=False)}")
+    # print("input_ids:\n{}".format(example["input_ids"]))
+    # print("inputs:\n{}".format(tokenizer.decode(example["input_ids"], skip_special_tokens=False)))
+    # print("label_ids:\n{}".format(example["labels"]))
+    # print(f"labels:\n{tokenizer.decode(valid_labels, skip_special_tokens=False)}")

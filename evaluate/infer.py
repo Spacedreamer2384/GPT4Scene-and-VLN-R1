@@ -3,7 +3,7 @@ import json
 import torch
 from tqdm import tqdm
 from val_dataset import create_dataset, create_loader, collate_fn
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 from utils.config_utils import setup_main
 
 def inference(model, val_loader, device, config):
@@ -28,7 +28,7 @@ def inference(model, val_loader, device, config):
 
     if model == 'qwenvl':
         print(f"Loading model from {config.model_path}")
-        vmodel = Qwen2VLForConditionalGeneration.from_pretrained(
+        vmodel = Qwen2_5_VLForConditionalGeneration.from_pretrained(
             config.model_path, torch_dtype="auto", attn_implementation="flash_attention_2", device_map=None
         )
         vmodel.eval()

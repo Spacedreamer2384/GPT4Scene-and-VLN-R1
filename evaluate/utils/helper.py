@@ -84,7 +84,7 @@ def answer_match(pred, gts):
 # refer to ScanRefer
 # https://github.com/daveredrum/ScanRefer/blob/9d7483053e8d29acfd4db4eb1bc28f1564f5dddb/lib/dataset.py#L243-L314
 def scanrefer_get_unique_multiple_lookup():
-    unique_multiple_lookup_file = 'annotation/scanrefer_unique_multiple_lookup.json'
+    unique_multiple_lookup_file = '/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scanrefer_unique_multiple_lookup.json'
     if not os.path.exists(unique_multiple_lookup_file):
         type2class = {'cabinet':0, 'bed':1, 'chair':2, 'sofa':3, 'table':4, 'door':5,
                 'window':6,'bookshelf':7,'picture':8, 'counter':9, 'desk':10, 'curtain':11,
@@ -93,7 +93,7 @@ def scanrefer_get_unique_multiple_lookup():
         scannet2label = {label: i for i, label in enumerate(scannet_labels)}
         label_classes_set = set(scannet_labels)
         raw2label = {}
-        with open('annotation/scannet/scannetv2-labels.combined.tsv', 'r') as f:
+        with open('/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scannet/scannetv2-labels.combined.tsv', 'r') as f:
             csvreader = csv.reader(f, delimiter='\t')
             csvreader.__next__()
             for line in csvreader:
@@ -105,7 +105,7 @@ def scanrefer_get_unique_multiple_lookup():
                     raw2label[raw_name] = scannet2label[nyu40_name]
         all_sem_labels = defaultdict(list)
         cache = defaultdict(dict)
-        scanrefer_data = json.load(open('annotation/scanrefer/ScanRefer_filtered.json'))
+        scanrefer_data = json.load(open('/rscratch/wzzheng/code/jerry/GPT4Scene-and-VLN-R1/evaluate/annotation/scanrefer/ScanRefer_filtered.json'))
         for data in scanrefer_data:
             scene_id = data['scene_id']
             object_id = data['object_id']

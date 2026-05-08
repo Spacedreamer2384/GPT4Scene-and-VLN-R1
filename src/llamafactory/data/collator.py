@@ -17,9 +17,10 @@
 
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, Any, Dict, Literal, Optional, Sequence
-
+import torch.nn.functional as F
 import torch
 from transformers import DataCollatorForSeq2Seq
+from peft import PeftModel
 
 
 if TYPE_CHECKING:
@@ -78,6 +79,23 @@ class MultiModalDataCollatorForSeq2Seq(DataCollatorForSeq2Seq):
     template: Optional["Template"] = None
     processor: Optional["ProcessorMixin"] = None
 
+    def __post_init__(self):
+        if self.template is None:
+            raise ValueError("Template is required for MultiModalDataCollator.")
+
+        if isinstance(self.model, PeftModel):
+            self.model = self.model.base_model.model
+        # print("model:", self.model)
+        if self.model is not None and hasattr(self.model, "get_rope_index"):  # for qwen2vl mrope
+            # print("get_rope_func is not None, using mrope")
+            self.get_rope_func = self.model.get_rope_index  # transformers < 4.52.0 or qwen2.5 omni
+        elif self.model is not None and hasattr(self.model, "model") and hasattr(self.model.model, "get_rope_index"):
+            self.get_rope_func = self.model.model.get_rope_index  # transformers >= 4.52.0
+        else:
+            # print("get_rope_func is None, not using mrope")
+            self.get_rope_func = None
+    
+    
     def __call__(self, features: Sequence[Dict[str, Any]]) -> Dict[str, "torch.Tensor"]:
         batch_images, batch_videos, batch_imglens, batch_vidlens, batch_seqlens = [], [], [], [], []
         for feature in features:
@@ -96,8 +114,51 @@ class MultiModalDataCollatorForSeq2Seq(DataCollatorForSeq2Seq):
             token_type_ids = mm_inputs.pop("token_type_ids")
             for i, feature in enumerate(features):
                 feature["token_type_ids"] = token_type_ids[i]
-
+        print("image_grid_thw: ", mm_inputs.get("image_grid_thw"))
         features: Dict[str, "torch.Tensor"] = super().__call__(features)
+        if self.get_rope_func is not None:
+           # print("get_rope_func is not None")
+            rope_index_kwargs = {
+                "input_ids": features["input_ids"],
+                "image_grid_thw": mm_inputs.get("image_grid_thw"),
+                "video_grid_thw": mm_inputs.get("video_grid_thw"),
+                "attention_mask": (features["attention_mask"] >= 1).float(),
+            }
+            
+            if "second_per_grid_ts" in mm_inputs:  # for qwen2vl
+                rope_index_kwargs["second_per_grid_ts"] = mm_inputs.get("second_per_grid_ts")
+            elif "video_second_per_grid" in mm_inputs:  # for qwen2.5 omni
+                rope_index_kwargs["second_per_grids"] = mm_inputs.get("video_second_per_grid")
+
+            if getattr(self.model.config, "model_type", None) == "qwen2_5_omni_thinker":  # for qwen2.5 omni
+                rope_index_kwargs["use_audio_in_video"] = getattr(self.processor, "use_audio_in_video", False)
+                feature_attention_mask = mm_inputs.get("feature_attention_mask", None)
+                if feature_attention_mask is not None:  # FIXME: need to get video image lengths
+                    audio_feature_lengths = torch.sum(feature_attention_mask, dim=1)
+                    rope_index_kwargs["audio_seqlens"] = audio_feature_lengths  # prepare for input
+
+                features["position_ids"], rope_deltas = self.get_rope_func(**rope_index_kwargs)
+                features["rope_deltas"] = rope_deltas - (1 - rope_index_kwargs["attention_mask"]).sum(
+                    dim=-1
+                ).unsqueeze(-1)
+            else:  # for qwen2vl
+                features["position_ids"], features["rope_deltas"] = self.get_rope_func(**rope_index_kwargs)
+
+        if (
+            self.model is not None
+            and getattr(self.model.config, "model_type", None)
+            in ["glm4v", "qwen2_vl", "qwen2_vl_bev", "qwen2_5_vl", "qwen2_5_omni_thinker"]
+            and ("position_ids" not in features or features["position_ids"].dim() != 3)
+        ):
+            raise ValueError("Qwen2-VL/Qwen2.5-Omni model requires 3D position ids for mrope.")
+
+        if "cross_attention_mask" in mm_inputs:  # for mllama inputs when pad_to_multiple_of is enabled
+            cross_attention_mask = mm_inputs.pop("cross_attention_mask")
+            seq_len = features["input_ids"].size(1)
+            orig_len = cross_attention_mask.size(1)
+            mm_inputs["cross_attention_mask"] = F.pad(cross_attention_mask, (0, 0, 0, 0, 0, seq_len - orig_len))
+        
+        
         features.update(mm_inputs)
         if isinstance(features.get("pixel_values"), list):  # for pixtral inputs
             features = features.data  # use default_collate() instead of BatchEncoding.to()

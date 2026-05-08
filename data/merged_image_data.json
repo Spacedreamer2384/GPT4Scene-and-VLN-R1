@@ -1,0 +1,4697 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Tube."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/tube.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toothbrush."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toothbrush.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Counter."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/counter.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Shoe."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/shoe.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Desk."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/desk.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ladder."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/ladder.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Book."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/book.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stapler."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stapler.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ036>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/36.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mattress."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mattress.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Jar."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/jar.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ063>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/63.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hair dryer."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/hair_dryer.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dishwasher."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dishwasher.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stall."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stall.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Microwave."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/microwave.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Soap."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/soap.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ009>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/09.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Wall."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/wall.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ017>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/17.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Floor."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/floor.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Machine."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/machine.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Tray."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/tray.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ031>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/31.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Glass."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/glass.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ064>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/64.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Detergent."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/detergent.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Frame."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/frame.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ088>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/88.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Lamp."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/lamp.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Teapot."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/teapot.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Spoon."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/spoon.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Keyboard."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/keyboard.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Person."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/person.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ026>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/26.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bathtub."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bathtub.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Soap dish."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/soap_dish.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ048>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/48.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ043>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/43.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Shovel."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/shovel.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bed."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bed.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Container."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/container.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Washing machine."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/washing_machine.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sign."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/sign.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ010>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/10.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Poster."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/poster.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ093>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/93.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Plug."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/plug.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Wardrobe."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/wardrobe.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Screen."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/screen.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ098>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/98.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ball."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/ball.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Speaker."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/speaker.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toilet paper."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toilet_paper.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ081>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/81.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dvd."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dvd.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Control."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/control.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ038>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/38.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ052>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/52.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Board."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/board.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Drawer."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/drawer.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Trophy."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/trophy.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ002>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/02.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Brush."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/brush.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mirror."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mirror.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dustpan."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dustpan.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Switch."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/switch.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Windowsill."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/windowsill.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ085>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/85.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Rail."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/rail.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ054>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/54.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ006>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/06.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ044>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/44.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Socket."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/socket.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ019>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/19.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ067>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/67.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ042>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/42.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ011>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/11.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pitcher."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pitcher.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Piano."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/piano.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Computer."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/computer.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ087>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/87.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ073>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/73.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ045>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/45.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Luggage."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/luggage.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ055>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/55.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ015>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/15.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Statue."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/statue.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Fruit."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/fruit.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ062>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/62.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pillow."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pillow.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Plunger."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/plunger.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Flowerpot."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/flowerpot.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ051>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/51.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Magazine."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/magazine.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Clothes."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/clothes.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Basin."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/basin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Fan."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/fan.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ021>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/21.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Package."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/package.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ099>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/99.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ034>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/34.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Towel."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/towel.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ032>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/32.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bread."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bread.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dispenser."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dispenser.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Grab bar."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/grab_bar.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Vase."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/vase.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Holder."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/holder.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Doorframe."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/doorframe.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Scissors."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/scissors.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Telephone."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/telephone.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ056>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/56.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Candle."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/candle.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Wrap."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/wrap.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Notebook."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/notebook.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ040>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/40.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ014>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/14.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Adhesive tape."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/adhesive_tape.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ080>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/80.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Coat hanger."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/coat_hanger.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dumbbell."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dumbbell.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Label."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/label.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Globe."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/globe.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Car."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/car.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Blackboard."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/blackboard.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ025>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/25.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Door."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/door.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Guitar."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/guitar.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ049>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/49.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ058>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/58.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cart."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/cart.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "File."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/file.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Laptop."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/laptop.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Curtain."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/curtain.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Crate."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/crate.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pen."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pen.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ057>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/57.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mouse."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mouse.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Support."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/support.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ003>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/03.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ086>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/86.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ046>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/46.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Eraser."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/eraser.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Map."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/map.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bottle."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bottle.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toy."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toy.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Column."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/column.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pillar."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pillar.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mailbox."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mailbox.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Clock."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/clock.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dish rack."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dish_rack.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bin."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ018>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/18.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ072>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/72.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stopcock."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stopcock.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Paper."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/paper.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Backpack."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/backpack.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Basket."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/basket.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Camera."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/camera.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bowl."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bowl.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ061>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/61.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Monitor."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/monitor.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Alarm."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/alarm.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toiletry."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toiletry.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ076>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/76.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bag."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bag.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Shelf."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/shelf.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ069>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/69.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Rod."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/rod.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toothpaste."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toothpaste.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hanger."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/hanger.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Can."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/can.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ016>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/16.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ075>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/75.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toilet."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toilet.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Refrigerator."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/refrigerator.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stove."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stove.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Washbasin."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/washbasin.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Scale."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/scale.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ028>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/28.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ053>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/53.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Tv."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/tv.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ledge."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/ledge.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Clothes dryer."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/clothes_dryer.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bucket."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bucket.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Broom."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/broom.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Jacket."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/jacket.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Carpet."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/carpet.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ079>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/79.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Blanket."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/blanket.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Copier."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/copier.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Oven."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/oven.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mat."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mat.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stairs."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stairs.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ039>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/39.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ023>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/23.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Toaster."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/toaster.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ050>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/50.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Divider."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/divider.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ007>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/07.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ071>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/71.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Excercise equipment."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/excercise_equipment.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stand."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stand.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Soap dispenser."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/soap_dispenser.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cosmetics."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/cosmetics.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Object."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/object.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Plate."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/plate.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Table."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/table.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Fireplace."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/fireplace.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ091>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/91.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ024>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/24.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bench."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bench.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cabinet."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/cabinet.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ottoman."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/ottoman.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ097>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/97.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Door knob."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/door_knob.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Faucet."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/faucet.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Radiator."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/radiator.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ089>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/89.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Dresser."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/dresser.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Case."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/case.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pot."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pot.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Headphones."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/headphones.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Structure."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/structure.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ083>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/83.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ066>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/66.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ070>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/70.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Ceiling."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/ceiling.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ041>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/41.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ095>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/95.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ077>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/77.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Plant."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/plant.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Light."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/light.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ020>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/20.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ084>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/84.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Fire extinguisher."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/fire_extinguisher.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ037>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/37.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Decoration."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/decoration.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ060>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/60.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Barricade."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/barricade.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Shower."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/shower.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Air conditioner."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/air_conditioner.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ013>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/13.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Printer."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/printer.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ096>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/96.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Projector."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/projector.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Furniture."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/furniture.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bicycle."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bicycle.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ001>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/01.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Range hood."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/range_hood.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Vent."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/vent.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Vacuum cleaner."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/vacuum_cleaner.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ004>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/04.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ082>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/82.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ029>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/29.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Tissue box."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/tissue_box.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Kettle."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/kettle.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Radio."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/radio.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sunglasses."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/sunglasses.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Helmets."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/helmets.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cushion."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/cushion.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Water cooler."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/water_cooler.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Stool."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/stool.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Vanity."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/vanity.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ092>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/92.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Coil."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/coil.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Umbrella."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/umbrella.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ027>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/27.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hamper."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/hamper.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Calendar."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/calendar.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ008>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/08.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ078>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/78.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Rack."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/rack.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pool table."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pool_table.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ090>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/90.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Wire."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/wire.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sink."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/sink.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pad."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pad.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ012>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/12.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Chair."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/chair.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ030>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/30.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ068>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/68.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Box."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/box.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ033>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/33.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Blinds."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/blinds.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ059>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/59.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ047>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/47.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Chandelier."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/chandelier.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ005>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/05.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mop."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mop.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Window."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/window.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ094>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/94.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ065>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/65.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Bar."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/bar.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Hat."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/hat.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Cup."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/cup.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Purse."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/purse.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pipe."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pipe.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Remote control."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/remote_control.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Paper cutter."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/paper_cutter.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ074>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/74.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Tissue."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/tissue.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Folder."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/folder.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sheet."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/sheet.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Couch."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/couch.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Coffee maker."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/coffee_maker.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Mask."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/mask.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ035>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/35.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ022>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/22.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Picture."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/picture.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object?"
+      },
+      {
+        "from": "gpt",
+        "value": "Pool."
+      }
+    ],
+    "images": [
+      "data/icons_28x28_scannet/pool.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>What is the object marker?"
+      },
+      {
+        "from": "gpt",
+        "value": "<OBJ000>."
+      }
+    ],
+    "images": [
+      "data/number_images_28x28/00.png"
+    ]
+  }
+]

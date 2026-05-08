@@ -1,0 +1,11 @@
+{
+    "merged": {
+        "file_name": "merged_image_data.json",
+        "formatting": "sharegpt",
+        "columns": {
+        "messages": "conversations",
+        "images": "images"
+        }
+    }
+}
+  
